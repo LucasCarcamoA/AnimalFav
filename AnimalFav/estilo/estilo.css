@@ -1,0 +1,251 @@
+h1 {
+    color: red;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.tabb {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(39, 134, 137, 0.684);
+}
+
+.animacion-fondo{
+    min-height: 100vh;
+    height: 100max;
+    background-image: url('../media/fondo.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, #titulo {
+    padding: 5px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 5px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: left;    
+}
+nav {
+    background-color: rgb(180, 180, 180);
+    border-radius: 0px 0px 8px 8px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: rgb(197, 197, 35);
+    color: black;
+    box-shadow: 0px 0px 3px 5px black;
+}
+
+.centrado{
+    min-height: 100vh;
+    margin: 0px 150px;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.856);
+}
+
+.nombre-r {
+    margin: 10px 5px;
+}
+
+
+.cont {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex; /*para que se acomoden uno al lado del otro*/
+    justify-content: space-between; /*les da un espacio entre los 2 objetos que quiero alinear */
+    
+}
+#conto {
+    margin: 0; 
+    text-align: left; 
+}
+
+#contt {
+    margin: 0; 
+    text-align: right;
+}
+
+.cont-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    margin-left: 5px;
+    text-align: left;
+    width: 50%;
+}
+
+.info img{
+    margin-left: 20%;
+    border: 2px solid black;
+}
+
+.cont-imagen{
+    padding: 10px 20px;
+    margin-right: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.cont-imagen img{
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px 2px yellow;
+}
+
+.cont-imagen #nido{
+    margin-top: 20px;
+    width: 40%;
+}
+
+iframe {
+    border: 2px solid black;
+    box-shadow: 0px 0px 3px 1px yellow;
+}
+
+.cont-imagen p{
+    text-align: left;
+}
+.cont-imagen #osd{
+    margin-top: 10px;
+    width: 60%;
+}
+
+.cont-jp {
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.cont-jp img{
+    width: 100%;
+}
+
+audio {
+    width: 100%;
+}
+
+.c-habitat{
+    display: flex;
+    width: 100%;
+}
+
+.c-habitat .habitat{
+    text-align: justify;
+}
+
+.c-habitat .i-habitat{
+    text-align: justify;
+    width: 70%;
+}
+
+.i-habitat img{
+    width: 100%;
+    border: 2px solid black;
+    margin: 0;
+}
+
+/* Diseño de divs para la galería*/
+
+.cont-ph {
+    width: 100%;
+    display: flex;
+}
+
+.cont-ph img {
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0px 2px 4px 1px rgb(0, 0, 0);
+}
+
+.cont-ph a {
+    margin: 10px;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+}
+
+/*Formulario*/
+
+form{
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 0, 0.511);
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    font-size:x-large;
+    text-align: center;
+    justify-content: center;
+}
+
+form input{
+    border-radius: 8px;
+}
+
+form div{
+    margin: 5%;
+}
+
+.formulario {
+    border: 2px solid black;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.formulario h2{
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    background-color:rgba(245, 245, 220, 0.552);
+}
+
+.boton{
+    width: 100%;
+}
+
+.boton:active{
+    background-color: black;
+    color: yellow;
+    box-shadow: 0px 0px 0px 2px white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.619);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
